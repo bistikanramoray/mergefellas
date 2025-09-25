@@ -161,7 +161,7 @@ export function MergeFellasMainContent() {
   };
 
   return (
-    <div className="min-h-screen">
+    <div className="m in-h-screen">
       
  
 
@@ -169,7 +169,7 @@ export function MergeFellasMainContent() {
 
 
       {/* Article Content */}
-      <section className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+      <section className="max-w-4xl mx-auto   sm:px-6 lg:px-8 py-11">
         <article className="prose prose-lg max-w-none dark:prose-invert">
           <p className="text-lg leading-relaxed mb-6">
             Official games come with certain rules and regulations that you have to follow. Sometimes people find it challenging to complete the level and become annoyed when they can't even after many attempts. They want games that offer unlimited features without any restrictions. To meet people's demand, mod versions of official games are available.
