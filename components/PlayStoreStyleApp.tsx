@@ -154,7 +154,7 @@ export default function PlayStoreStyleApp() {
             </p>
             
             {/* App Details */}
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-sm">
+            <div className="grid grid-cols-3 md:grid-cols-3 gap-6 text-sm">
               <div>
                 <h3 className="font-semibold mb-2">Version</h3>
                 <p className="text-gray-600 dark:text-gray-400">1.8.7</p>
