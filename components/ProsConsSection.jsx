@@ -24,7 +24,7 @@ const ProsConsSection = () => {
        
       {/* Pros and Cons Section */}
       <section className="py-4">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-6xl mx-auto p x-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-900 dark:text-white">
             Pros and Cons of Merge Fellas Mod APK
           </h2>

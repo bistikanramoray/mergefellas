@@ -90,7 +90,7 @@ export function MergeFellasFeatures({ pageType = "single" }: MergeFellasFeatures
   ]
 
   return (
-    <section className="max-w-7xl mx-auto mb-20 px-4">
+    <section className="max-w-7xl mx-auto mb-20 p x-4">
       <h2 className="text-center font-extrabold text-3xl mb-6 max-w-4xl mx-auto text-gray-900 dark:text-white">
         Features of Merge Fellas
       </h2>

@@ -9,8 +9,8 @@ export function FinalWordsSection() {
   }
 
   return (
-    <section className="py-9 mb-9">
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+    <section className="py-3 mb-5">
+      <div className="max-w-4xl mx-auto p x-4 sm:px-6 lg:px-8 text-center">
         <h2 className="text-3xl md:text-4xl font-bold mb-8 text-gray-900 dark:text-white">
           Final Words
         </h2>
