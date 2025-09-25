@@ -19,11 +19,11 @@ interface DynamicHomeContentProps {
 export function DynamicHomeContent({ initialPosts }: DynamicHomeContentProps) {
   return (
     <div>
-      <HeroSection lang="en" />
+      <HeroSection   />
       <FaceSwapDemo lang="en" />
       <WhatCanAIDoSection lang="en" />
       <UserReviewsSection lang="en" />
-      <FAQSection lang="en" />
+      <FAQSection  />
       <HowToUseSection lang="en" />
       <OnlineToolsSection lang="en" />
       <PerfectFaceSwapperSection lang="en" />
@@ -44,12 +44,7 @@ export function DynamicHomeContent({ initialPosts }: DynamicHomeContentProps) {
                 <span>Blog</span>
               </Link>
             </li>
-           
-            <li>
-              <Link href="/about">
-                <span>About Us</span>
-              </Link>
-            </li>
+            
             <li>
               <Link href="/contact">
                 <span>Contact</span>
@@ -60,51 +55,14 @@ export function DynamicHomeContent({ initialPosts }: DynamicHomeContentProps) {
                 <span>Privacy Policy</span>
               </Link>
             </li>
-            <li>
-              <Link href="/terms">
-                <span>Terms of Service</span>
-              </Link>
-            </li>
+            
             <li>
               <Link href="/download">
                 <span>Download App</span>
               </Link>
             </li>
-            <li>
-              <Link href="/help">
-                <span>Help Center</span>
-              </Link>
-            </li>
-            <li>
-              <Link href="/tutorials">
-                <span>Tutorials</span>
-              </Link>
-            </li>
-            <li>
-              <Link href="/templates">
-                <span>Templates</span>
-              </Link>
-            </li> 
-            <li>
-              <Link href="/id">
-                <span>Bahasa Indonesia</span>
-              </Link>
-            </li>
-            <li>
-              <Link href="/ru">
-                <span>Русский</span>
-              </Link>
-            </li>
-            <li>
-              <Link href="/pt">
-                <span>Português</span>
-              </Link>
-            </li>
-            <li>
-              <Link href="/es">
-                <span>Español</span>
-              </Link>
-            </li>
+            
+            
           </ul>
         </nav>
 

@@ -117,9 +117,7 @@ export function Header() {
           <li>
             <a href="/download">Download APK</a>
           </li>
-          <li>
-            <a href="/about">About Us</a>
-          </li>
+          
           <li>
             <a href="/privacy">Privacy Policy</a>
           </li>
