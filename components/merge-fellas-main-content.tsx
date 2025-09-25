@@ -181,13 +181,7 @@ export function MergeFellasMainContent() {
 
           <h2 className="text-3xl font-bold mt-12 mb-6">Merge Fellas Mod APK</h2>
 
-          <div className="mb-8">
-            <img 
-              src="/images/Merge-Fellas-APK-.webp" 
-              alt="Merge Fellas APK"
-              className="w-full rounded-lg shadow-lg"
-            />
-          </div>
+         
 
           <p className="text-lg leading-relaxed mb-6">
         Merge Fellas is an interesting mobile puzzle game where you merge internet characters and animals and create ever more adorable and funny characters. This game comes with unique game modes, vibrant visuals, and intuitive drag-and-drop controls. 
@@ -197,7 +191,13 @@ export function MergeFellasMainContent() {
            If you are in search of a funny, amusing offline puzzle game, you have to give this game a chance to this game. It is a fact that there are certain rules you have to follow while playing it, but the mod versions offer unlimited features with a sense of addiction. Here we are with the Merge Fellas Mod APK new version.
           </p>
 
- 
+  <div className="mb-8">
+            <img 
+              src="/images/Merge-Fellas-APK-.webp" 
+              alt="Merge Fellas APK"
+              className="w-full rounded-lg shadow-lg"
+            />
+          </div>
 
 
 
