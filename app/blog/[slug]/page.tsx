@@ -37,9 +37,9 @@ export async function generateMetadata({ params }: BlogPostPageProps): Promise<M
   const description = decodedExcerpt.replace(/<[^>]*>/g, "").substring(0, 160)
 
   return {
-    title: `${decodedTitle} | faceswaponline Blog`,
+    title: `${decodedTitle}`,
     description,
-    keywords: post.tags?.map((tag) => decode(tag.name)).join(", ") || "AI Merge Fellas, photo editing",
+    keywords: post.tags?.map((tag) => decode(tag.name)).join(", ") || "Merge Fellas",
     alternates: {
       canonical: `https://mergefellas-apk.com/blog/${post.slug}`,
       languages: {
@@ -131,38 +131,38 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
               <div className="sticky top-8 space-y-8">
                 {/* Related Posts Section */}
                 {relatedPosts.length > 0 && (
-                  <section>
-                    <h2 className="text-xl font-bold text-gray-900 dark:text-white mb-6 bg-yellow-100 dark:bg-yellow-900/20 border-l-4 border-yellow-500 pl-4 py-3 rounded-r-lg">
-                      Related Posts
-                    </h2>
-                    <div className="space-y-6">
-                      {relatedPosts.map((relatedPost) => (
-                        <article key={relatedPost.id} className="group">
-                          <a href={`/blog/${relatedPost.slug}`} className="block">
-                            {relatedPost.featured_image && (
-                              <div className="aspect-video overflow-hidden rounded-lg mb-3">
-                                <img
-                                  src={relatedPost.featured_image || "/placeholder.svg"}
-                                  alt={`Featured image for ${decode(relatedPost.title)}`}
-                                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-                                />
-                              </div>
-                            )}
-                            <h3 className="font-bold text-sm text-gray-900 dark:text-white group-hover:text-[#ffdb01] transition-colors line-clamp-2 mb-2">
-                              {decode(relatedPost.title)}
-                            </h3>
-                          </a>
-                          <p className="text-gray-600 dark:text-gray-300 text-xs line-clamp-2">
-                            {decode(relatedPost.excerpt).replace(/<[^>]*>/g, "").substring(0, 80)}...
-                          </p>
-                        </article>
-                      ))}
-                    </div>
-                  </section>
+                 <section>
+                 <p className="text-xl font-bold text-gray-900 dark:text-white mb-6 bg-yellow-100 dark:bg-yellow-900/20 border-l-4 border-yellow-500 pl-4 py-3 rounded-r-lg">
+                   Related Posts
+                 </p>
+                 <div className="space-y-6">
+                   {relatedPosts.map((relatedPost) => (
+                     <article key={relatedPost.id} className="group">
+                       <a href={`/blog/${relatedPost.slug}`} className="block">
+                         {relatedPost.featured_image && (
+                           <div className="aspect-video overflow-hidden rounded-lg mb-3">
+                             <img
+                               src={relatedPost.featured_image || "/placeholder.svg"}
+                               alt={`Featured image for ${decode(relatedPost.title)}`}
+                               className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                             />
+                           </div>
+                         )}
+                         <span className="font-bold text-sm text-gray-900 dark:text-white group-hover:text-[#ffdb01] transition-colors line-clamp-2 mb-2 block">
+                           {decode(relatedPost.title)}
+                         </span>
+                       </a>
+                       <p className="text-gray-600 dark:text-gray-300 text-xs line-clamp-2">
+                         {decode(relatedPost.excerpt).replace(/<[^>]*>/g, "").substring(0, 80)}...
+                       </p>
+                     </article>
+                   ))}
+                 </div>
+               </section>
                 )}
 
                 {/* Latest Posts Section */}
-                <section>
+                {/* <section>
                   <h2 className="text-xl font-bold text-gray-900 dark:text-white mb-6 bg-yellow-100 dark:bg-yellow-900/20 border-l-4 border-yellow-500 pl-4 py-3 rounded-r-lg">
                     Latest Posts
                   </h2>
@@ -197,7 +197,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
                       </article>
                     ))}
                   </div>
-                </section>
+                </section> */}
               </div>
             </div>
           </div>
@@ -239,47 +239,6 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
         <Footer lang="en" />
       </div>
 
-      {/* Language alternates for crawlers */}
-      <div className="sr-only">
-        <h2>This Post in Other Languages</h2>
-        <nav>
-          <ul>
-            <li>
-              <a href={`/blog/${post.slug}`}>English Version</a>
-            </li>
-            {post.languages?.translations?.id && (
-              <li>
-                <a href={`/id/blog/${post.languages.translations.id.slug}`}>Indonesian Version</a>
-              </li>
-            )}
-            {post.languages?.translations?.ru && (
-              <li>
-                <a href={`/ru/blog/${post.languages.translations.ru.slug}`}>Russian Version</a>
-              </li>
-            )}
-            {post.languages?.translations?.pt && (
-              <li>
-                <a href={`/pt/blog/${post.languages.translations.pt.slug}`}>Portuguese Version</a>
-              </li>
-            )}
-            {post.languages?.translations?.es && (
-              <li>
-                <a href={`/es/blog/${post.languages.translations.es.slug}`}>Spanish Version</a>
-              </li>
-            )}
-          </ul>
-        </nav>
-
-        <h3>Related Blog Posts</h3>
-        <ul>
-          {relatedPosts.map((relatedPost) => (
-            <li key={`related-${relatedPost.id}`}>
-              <a href={`/blog/${relatedPost.slug}`}>{decode(relatedPost.title)}</a>
-            </li>
-          ))}
-        </ul>
-      </div>
-
       {/* Structured Data */}
       <script
         type="application/ld+json"
@@ -292,11 +251,11 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
             image: post.featured_image || "https://mergefellas-apk.com/og-image.jpg",
             author: {
               "@type": "Organization",
-              name: "faceswaponline Team",
+              name: "merge fellas",
             },
             publisher: {
               "@type": "Organization",
-              name: "faceswaponline",
+              name: "merge fellas",
               logo: {
                 "@type": "ImageObject",
                 url: "https://mergefellas-apk.com/logo.png",

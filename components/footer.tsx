@@ -17,7 +17,7 @@ export function Footer() {
           </div>
 
           <div>
-            <h3 className="font-semibold text-foreground mb-4">Quick Links</h3>
+            <span className="font-semibold text-foreground mb-4 block">Quick Links</span>
             <ul className="space-y-2 text-sm">
               <li>
                 <Link href="/" className="hover:text-primary transition-colors text-muted-foreground">
@@ -38,7 +38,7 @@ export function Footer() {
           </div>
 
           <div>
-            <h3 className="font-semibold text-foreground mb-4">Sitemap</h3>
+            <span className="font-semibold text-foreground mb-4 block">Sitemap</span>
             <ul className="space-y-2 text-sm">
              
              
@@ -69,7 +69,7 @@ export function Footer() {
           </div>
 
           <div>
-            <h3 className="font-semibold text-foreground mb-4">Follow Us</h3>
+            <span className="font-semibold text-foreground mb-4 block">Follow Us</span>
             <div className="flex space-x-4 mb-6">
               <a
                 target="_blank"

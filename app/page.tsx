@@ -6,8 +6,6 @@ import { MergeFellasModFeatures  } from "@/components/what-can-ai-do-section"
 import { MergeFellasAlternatives } from "@/components/MergeFellasAlternatives"
 import ProsConsSection from '@/components/ProsConsSection';
 import { PersonalExperienceSection } from '@/components/PersonalExperienceSection'
-import { fetchAllPosts } from "@/lib/api"
-import { BlogSection } from "@/components/blog-section"
 import { FAQSection } from "@/components/faq-section"
 import { FinalWordsSection } from '@/components/FinalWordsSection'
 import { MergeFellasFeatures } from '@/components/MergeFellasFeatures' 
@@ -41,8 +39,8 @@ export const metadata: Metadata = {
 export const revalidate = 3600
 
 export default async function HomePage() {
-    const posts = await fetchAllPosts()
-  const latestPosts = posts.slice(0, 3)
+    // const posts = await fetchAllPosts()
+  // const latestPosts = posts.slice(0, 3)
   return (
     <>
       <div className="bg-background text-foreground transition-colors duration-300">
@@ -73,7 +71,7 @@ export default async function HomePage() {
            <PersonalExperienceSection   />
            <FAQSection   />
            <FinalWordsSection   />
-           <BlogSection posts={latestPosts}   />
+           {/* <BlogSection posts={latestPosts}   /> */}
 
        
           

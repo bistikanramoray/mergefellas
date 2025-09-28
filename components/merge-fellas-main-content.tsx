@@ -201,7 +201,7 @@ export function MergeFellasMainContent() {
 
 
 
-<h2 className="text-3xl font-bold mt-12 mb-6 dark:text-white">How to download Merge Fellas APK?</h2>
+<h2 className="text-3xl font-bold mt-12 mb-6 dark:text-white">How to download Merge Fellas Mod APK?</h2>
 
 <p className="text-lg leading-relaxed mb-8 dark:text-gray-300">
   Fellas Mod APK is a third-party app, so it is not available on the Google Play Store, but there is no need to worry! We are here with the link to the Merge Fellas APK file for you. You can download this mod APK from our website using the following steps.

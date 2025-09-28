@@ -144,33 +144,36 @@ export default function PlayStoreStyleApp() {
         </div>
       </div>
 
-      {/* Additional Info Section */}
-      <div className="bg-gray-50 dark:bg-gray-900 border-t border-gray-200 dark:border-gray-700">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-          <div className="text-gray-900 dark:text-gray-100">
-            <h2 className="text-2xl font-bold mb-4">About this app</h2>
-            <p className="text-gray-700 dark:text-gray-300 mb-6 leading-relaxed">
-              Fellas Mod APK is a third-party app, so it is not available on the Google Play Store, but there is no need to worry! We are here with the link to the Merge Fellas APK file for you. You can download this mod APK from our website using the following steps.
-            </p>
-            
-            {/* App Details */}
-            <div className="grid grid-cols-3 md:grid-cols-3 gap-6 text-sm">
-              <div>
-                <h3 className="font-semibold mb-2">Version</h3>
-                <p className="text-gray-600 dark:text-gray-400">1.8.7</p>
-              </div>
-              <div>
-                <h3 className="font-semibold mb-2">Size</h3>
-                <p className="text-gray-600 dark:text-gray-400">75MB</p>
-              </div>
-              <div>
-                <h3 className="font-semibold mb-2">Requirements</h3>
-                <p className="text-gray-600 dark:text-gray-400">Android 6.0+</p>
-              </div>
-            </div>
-          </div>
+     {/* Additional Info Section */}
+<div className="bg-gray-50 dark:bg-gray-900 border-t border-gray-200 dark:border-gray-700">
+  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+    <div className="text-gray-900 dark:text-gray-100">
+      <h2 className="text-2xl font-bold mb-4">About this app</h2>
+      <p className="text-gray-700 dark:text-gray-300 mb-6 leading-relaxed">
+        Fellas Mod APK is a third-party app, so it is not available on the Google Play Store, but there is no need to worry! We are here with the link to the Merge Fellas APK file for you. You can download this mod APK from our website using the following steps.
+      </p>
+      
+      {/* App Details */}
+      <div className="grid grid-cols-3 md:grid-cols-3 gap-6 text-sm">
+        <div>
+          <span className="font-semibold mb-2 block">Version</span>
+          <p className="text-gray-600 dark:text-gray-400">1.8.7</p>
+        </div>
+        <div>
+          <span className="font-semibold mb-2 block">Size</span>
+          <p className="text-gray-600 dark:text-gray-400">75MB</p>
+        </div>
+        <div>
+          <span className="font-semibold mb-2 block">Requirements</span>
+          <p className="text-gray-600 dark:text-gray-400">Android 6.0+</p>
         </div>
       </div>
+    </div>
+  </div>
+</div>
+
+
+
     </section>
   );
 }
