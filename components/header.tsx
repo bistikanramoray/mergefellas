@@ -17,10 +17,25 @@ export function Header() {
           </Link>
 
           <ul className="hidden md:flex items-center space-x-8 font-semibold text-foreground">
-            <li>
+            <li className="relative group">
               <Link href="/" className="hover:text-primary transition-colors">
                 Home
               </Link>
+              {/* Dropdown menu */}
+              <div className="absolute left-0 top-full mt-2 w-48 bg-background border border-border rounded-md shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
+                <Link 
+                  href="/blog/merge-fellas-mod-apk-for-pc" 
+                  className="block px-4 py-2 hover:bg-primary/10 hover:text-primary transition-colors first:rounded-t-md"
+                >
+                  For PC
+                </Link>
+                <Link 
+                  href="/blog/merge-fellas-for-ios" 
+                  className="block px-4 py-2 hover:bg-primary/10 hover:text-primary transition-colors last:rounded-b-md"
+                >
+                  For iOS
+                </Link>
+              </div>
             </li>
             <li>
               <Link href="/blog" className="hover:text-primary transition-colors">
@@ -77,6 +92,20 @@ export function Header() {
                 onClick={() => setIsMobileMenuOpen(false)}
               >
                 Home
+              </Link>
+              <Link
+                href="/blog/merge-fellas-mod-apk-for-pc"
+                className="py-2 pl-4 text-foreground hover:text-primary transition-colors"
+                onClick={() => setIsMobileMenuOpen(false)}
+              >
+                For PC
+              </Link>
+              <Link
+                href="/blog/merge-fellas-for-ios"
+                className="py-2 pl-4 text-foreground hover:text-primary transition-colors"
+                onClick={() => setIsMobileMenuOpen(false)}
+              >
+                For iOS
               </Link>
               <Link
                 href="/blog"
