@@ -8,7 +8,7 @@ export default function PlayStoreStyleApp() {
     if (navigator.share) {
       navigator.share({
         title: 'Merge Fellas Mod APK',
-        text: 'Download Merge Fellas Mod APK v1.8.7 with unlimited features!',
+        text: 'Download Merge Fellas Mod APK v1.9.7 with unlimited features!',
         url: window.location.href
       });
     } else {
@@ -30,7 +30,7 @@ export default function PlayStoreStyleApp() {
             {/* Left Content */}
             <div className="flex-1 text-gray-900 dark:text-gray-100">
               <h1 className="text-4xl lg:text-5xl font-bold mb-4 lg:leading-[1.2] leading-[1.2]">
-                Merge Fellas Mod APK v1.8.7 Unlimited Shakes 2025
+                Merge Fellas Mod APK v1.9.7 Unlimited Shakes 2025
               </h1> 
               <p className="text-sm text-gray-600 dark:text-gray-400 mb-8">
                 Download the latest version of Merge Fellas Mod APK to enjoy modded features, such as a mod menu, unlimited shakes, revives, and ad-free gameplay.
@@ -157,11 +157,11 @@ export default function PlayStoreStyleApp() {
       <div className="grid grid-cols-3 md:grid-cols-3 gap-6 text-sm">
         <div>
           <span className="font-semibold mb-2 block">Version</span>
-          <p className="text-gray-600 dark:text-gray-400">1.8.7</p>
+          <p className="text-gray-600 dark:text-gray-400">1.9.7</p>
         </div>
         <div>
           <span className="font-semibold mb-2 block">Size</span>
-          <p className="text-gray-600 dark:text-gray-400">75MB</p>
+          <p className="text-gray-600 dark:text-gray-400">102MB</p>
         </div>
         <div>
           <span className="font-semibold mb-2 block">Requirements</span>

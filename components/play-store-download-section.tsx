@@ -81,7 +81,7 @@ export function PlayStoreDownloadSection() {
 
               {/* Version Info */}
               <div className="mt-4 text-sm text-muted-foreground">
-                <p>Version: 1.8.7 • Size: 75MB • Updated: Recently</p>
+                <p>Version: 1.9.7 • Size: 102MB • Updated: Recently</p>
                 <p>Requires Android 6.0+</p>
               </div>
             </div>

@@ -7,7 +7,7 @@ export function HeroSection() {
   return (
     <section className="text-center max-w-5xl mx-auto mt-8 mb-16">
       <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold text-foreground max-w-4xl mx-auto mb-6 text-balance">
-        Merge Fellas Mod APK v1.8.7 Unlimited Shakes 2025
+        Merge Fellas Mod APK v1.9.7 Unlimited Shakes 2025
       </h1>
       <p className="mt-6 text-muted-foreground text-lg md:text-xl max-w-3xl mx-auto leading-relaxed text-pretty">
         Download the latest version of Merge Fellas Mod APK to enjoy modded features, such as a mod menu, unlimited
@@ -40,7 +40,7 @@ export function HeroSection() {
             </div>
             <div className="flex justify-between">
               <span className="font-semibold">Version:</span>
-              <span>v1.8.7</span>
+              <span>v1.9.7</span>
             </div>
             <div className="flex justify-between">
               <span className="font-semibold">Requirements:</span>

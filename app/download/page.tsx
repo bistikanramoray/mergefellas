@@ -6,7 +6,7 @@ import type { Metadata } from "next"
 export const metadata: Metadata = {
   title: "Download Merge Fellas MOD APK - Latest Versions Available",
   description:
-    "Download all available versions of Merge Fellas Mod APK with unlimited shakes, revives, and ad-free gameplay. Get the latest v1.8.7 and older versions.",
+    "Download all available versions of Merge Fellas Mod APK with unlimited shakes, revives, and ad-free gameplay. Get the latest v1.9.7 and older versions.",
   keywords: "Merge Fellas download, MOD APK download, unlimited shakes, revives, ad-free gameplay",
   openGraph: {
     title: "Download Merge Fellas MOD APK - Latest Versions Available",

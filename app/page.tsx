@@ -12,12 +12,12 @@ import { MergeFellasFeatures } from '@/components/MergeFellasFeatures'
 import PlayStoreStyleApp from '@/components/PlayStoreStyleApp'
 
 export const metadata: Metadata = {
-  title: "Merge Fellas MOD APK v1.8.7 Unlimited Shakes 2025",
+  title: "Merge Fellas MOD APK v1.9.7 Unlimited Shakes 2025",
   description:
     "Download the latest version of Merge Fellas Mod APK to enjoy modded features, such as a mod menu, unlimited shakes, revives, and ad-free gameplay.",
   keywords: "Merge Fellas, MOD APK, unlimited shakes, revives, mod menu, ad-free gameplay, puzzle merge game",
   openGraph: {
-    title: "Merge Fellas MOD APK v1.8.7 Unlimited Shakes 2025",
+    title: "Merge Fellas MOD APK v1.9.7 Unlimited Shakes 2025",
     description:
       "Download the latest version of Merge Fellas Mod APK to enjoy modded features, such as a mod menu, unlimited shakes, revives, and ad-free gameplay.",
     type: "website",
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Merge Fellas MOD APK v1.8.7 Unlimited Shakes 2025",
+    title: "Merge Fellas MOD APK v1.9.7 Unlimited Shakes 2025",
     description:
       "Download the latest version of Merge Fellas Mod APK to enjoy modded features, such as a mod menu, unlimited shakes, revives, and ad-free gameplay.",
   },
@@ -64,13 +64,13 @@ export default async function HomePage() {
 
            <PlayStoreStyleApp />
            <MergeFellasMainContent />
-           <MergeFellasFeatures /> 
-           <MergeFellasModFeatures /> 
-           <ProsConsSection  />  
-           <MergeFellasAlternatives  />  
-           <PersonalExperienceSection   />
-           <FAQSection   />
-           <FinalWordsSection   />
+           <MergeFellasFeatures />
+           <MergeFellasModFeatures />
+           <ProsConsSection />
+           <MergeFellasAlternatives  />
+           <PersonalExperienceSection  />
+           <FAQSection />
+           <FinalWordsSection />
            {/* <BlogSection posts={latestPosts}   /> */}
 
        
@@ -86,7 +86,7 @@ export default async function HomePage() {
               "@type": "Website",
               name: "Merge Fellas - MOD APK Download",
               url: "https://mergefellas-apk.com/",
-              headline: "Merge Fellas MOD APK v1.8.7 Unlimited Shakes 2025",
+              headline: "Merge Fellas MOD APK v1.9.7 Unlimited Shakes 2025",
               description:
                 "Download the latest version of Merge Fellas Mod APK to enjoy modded features, such as a mod menu, unlimited shakes, revives, and ad-free gameplay.",
               image: "https://mergefellas-apk.com/images/Merge-Fellas-logo.webp",

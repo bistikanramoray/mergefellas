@@ -2,7 +2,7 @@ export function ArticleContent() {
   return (
     <div className="max-w-4xl mx-auto py-12">
       <article className="prose prose-lg max-w-none dark:prose-invert">
-        <h1 className="text-4xl font-bold mb-8">Merge Fellas Mod APK v1.8.7 Unlimited Shakes 2025</h1>
+        <h1 className="text-4xl font-bold mb-8">Merge Fellas Mod APK v1.9.7 Unlimited Shakes 2025</h1>
 
         <p className="text-lg leading-relaxed mb-6">
           Official games come with certain rules and regulations that you have to follow. Sometimes people find it
@@ -67,7 +67,7 @@ export function ArticleContent() {
                 <td className="border border-gray-300 dark:border-gray-600 p-3 font-semibold bg-gray-50 dark:bg-gray-800">
                   Version
                 </td>
-                <td className="border border-gray-300 dark:border-gray-600 p-3">v1.8.7</td>
+                <td className="border border-gray-300 dark:border-gray-600 p-3">v1.9.7</td>
               </tr>
               <tr>
                 <td className="border border-gray-300 dark:border-gray-600 p-3 font-semibold bg-gray-50 dark:bg-gray-800">

@@ -14,7 +14,7 @@ export function FAQSection() {
     },
     {
       question: "What is the latest version of Merge Fellas APK, and where can I download it?",
-      answer: "Its latest version is v1.8.7, and you can download it from the link given on this website.",
+      answer: "Its latest version is v1.9.7, and you can download it from the link given on this website.",
     },
     {
       question: "Is this mod version free to download?",
@@ -31,7 +31,7 @@ export function FAQSection() {
         "Yes, you can play the official version of this game on your iOS devices, but you can't play the modded version on iOS. The reason is that the modded versions are only designed for Android devices, not for iOS.",
     },
     {
-      question: "What's New in the merge fellas Latest Version 1.8.7?",
+      question: "What's New in the merge fellas Latest Version 1.9.7?",
       answer: "The latest version comes with:\n1. One new mode\n2. Fix bugs that are problematic for you in the older version.",
     },
     {

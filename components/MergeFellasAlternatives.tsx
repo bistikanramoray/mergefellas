@@ -11,7 +11,7 @@ export function MergeFellasAlternatives({ pageType = "single" }: MergeFellasAlte
     {
       title: "Fruit Merge Games",
       description: "These games, such as Watermelon Merge Suika Game, Fruit Merge: Juicy Drop Game, and Fruit Merge: Watermelon puzzle, involve merging fruits to form large fruits and achieve specific combinations.",
-      image: "/images/featured.webp",
+      image: "/images/one-img.webp",
       alt: "Fruit Merge Games Screenshot",
       bgColor: "from-orange-400 to-red-500",
       bgColorDark: "bg-orange-100 dark:bg-orange-900"
@@ -19,7 +19,7 @@ export function MergeFellasAlternatives({ pageType = "single" }: MergeFellasAlte
     {
       title: "Egg Maker",
       description: "This game involves combining eggs to unlock new features. It offers a casual gaming experience with gameplay similar to that of Merge Fellas, but here you merge eggs instead of memes or animals.",
-         image: "/images/Merge-Fellas.webp",
+         image: "/images/two-img.webp",
       alt: "Egg Maker Game Screenshot",
       bgColor: "from-yellow-400 to-orange-500",
       bgColorDark: "bg-yellow-100 dark:bg-yellow-900"
@@ -27,7 +27,7 @@ export function MergeFellasAlternatives({ pageType = "single" }: MergeFellasAlte
     {
       title: "Suika x Watermelon Game: Kitty",
       description: "This game involves fruit-matching experience, where you merge identical fruits to form an entirely new fruit. This game brings an extra level of joy by creating new fruits.",
-         image: "/images/Merge-Fellas-MOD-APK.webp",
+         image: "/images/three-img.webp",
       alt: "Suika Watermelon Game Screenshot",
       bgColor: "from-green-400 to-blue-500",
       bgColorDark: "bg-green-100 dark:bg-green-900"
@@ -35,7 +35,7 @@ export function MergeFellasAlternatives({ pageType = "single" }: MergeFellasAlte
     {
       title: "Block Blast",
       description: "This is also a puzzle game with two different modes. In classic Block Puzzle mode, you have to eliminate rows or columns that you build with the block to get a score. In the second game mode, you have to solve complex situations.",
-        image: "/images/featured.webp",
+        image: "/images/four-img.webp",
       alt: "Block Blast Game Screenshot",
       bgColor: "from-purple-400 to-pink-500",
       bgColorDark: "bg-purple-100 dark:bg-purple-900"
@@ -43,7 +43,7 @@ export function MergeFellasAlternatives({ pageType = "single" }: MergeFellasAlte
     {
       title: "Escape from Playcare Chapter 3",
       description: "This is a horror game where your purpose is to advance with a peculiar monster. The long limbs of this monster make your progress easy in this game. If you like horror games, choose this one.",
-      image: "/images/Merge-Fellas.webp", 
+      image: "/images/five-img.webp", 
       alt: "Escape from Playcare Screenshot",
       bgColor: "from-gray-600 to-gray-800",
       bgColorDark: "bg-gray-100 dark:bg-gray-900"

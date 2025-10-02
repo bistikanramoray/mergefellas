@@ -6,27 +6,131 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Badge } from "@/components/ui/badge"
 import { Download, Smartphone, Shield, Zap, CheckCircle, Clock } from "lucide-react"
 
+const defaultDownloadURL = "https://dl.mergefellas-apk.com/file/mergefellasmodapk/merge-fellas-old-version.apk";
 const staticAPKData = {
   name: "Merge Fellas",
   versions: [
     {
+      version: "1.9.7",
+      download_url: "https://dl.mergefellas-apk.com/file/mergefellasmodapk/merge-fellas-mod-v1.9.7.apk",
+    },
+    {
+      version: "1.8.8",
+      download_url: "https://dl.mergefellas-apk.com/file/mergefellasmodapk/merge-fellas-old-version-v1.8.8.apk",
+    },
+    {
       version: "1.8.7",
-      download_url: "http://zubairakhtar.com/download/Demo-APK_v3.20.52_mergefellas-apk.com.apk",
+      download_url: "https://dl.mergefellas-apk.com/file/mergefellasmodapk/merge-fellas-old-version-v1.8.7.apk",
     },
     {
       version: "1.8.6",
-      download_url: "http://zubairakhtar.com/download/Demo-APK_v3.20.52_mergefellas-apk.com.apk",
+      download_url: "https://dl.mergefellas-apk.com/file/mergefellasmodapk/merge-fellas-mod-apk-v1.8.6.apk",
+    },
+    {
+      version: "1.8.5",
+      download_url: "https://dl.mergefellas-apk.com/file/mergefellasmodapk/merge-fellas-old-version-v1.8.5.apk",
+    },
+    {
+      version: "1.8.4",
+      download_url: "https://dl.mergefellas-apk.com/file/mergefellasmodapk/merge-fellas-old-version-v1.8.4.apk",
+    },
+    {
+      version: "1.8.3",
+      download_url: "https://dl.mergefellas-apk.com/file/mergefellasmodapk/merge-fellas-old-version-v1.8.3.apk",
+    },
+    {
+      version: "1.8.2",
+      download_url: "https://dl.mergefellas-apk.com/file/mergefellasmodapk/merge-fellas-old-version-v1.8.2.apk",
+    },
+    {
+      version: "1.8.1",
+      download_url: "https://dl.mergefellas-apk.com/file/mergefellasmodapk/merge-fellas-old-version-v1.8.1.apk",
+    },
+    {
+      version: "1.7.8",
+      download_url: "https://dl.mergefellas-apk.com/file/mergefellasmodapk/merge-fellas-old-version-v1.7.8.apk",
+    },
+    {
+      version: "1.7.7",
+      download_url: "https://dl.mergefellas-apk.com/file/mergefellasmodapk/merge-fellas-old-version-v1.7.7.apk",
+    },
+    {
+      version: "1.7.6",
+      download_url: "https://dl.mergefellas-apk.com/file/mergefellasmodapk/merge-fellas-old-version-v1.7.6.apk",
+    },
+    {
+      version: "1.7.5",
+      download_url: "https://dl.mergefellas-apk.com/file/mergefellasmodapk/merge-fellas-old-version-v1.7.5apk.apk",
+    },
+    {
+      version: "1.7.4",
+      download_url: "https://dl.mergefellas-apk.com/file/mergefellasmodapk/merge-fellas-old-version-v1.7.4.apk",
+    },
+    {
+      version: "1.7.3",
+      download_url: "https://dl.mergefellas-apk.com/file/mergefellasmodapk/merge-fellas-old-version-v1.7.3.apk",
+    },
+    {
+      version: "1.7.2",
+      download_url: "https://dl.mergefellas-apk.com/file/mergefellasmodapk/merge-fellas-old-version-v1.7.2.apk",
+    },
+    {
+      version: "1.7.1",
+      download_url: "https://dl.mergefellas-apk.com/file/mergefellasmodapk/merge-fellas-old-version-v1.7.1.apk",
+    },
+    {
+      version: "1.7.0",
+      download_url: "https://dl.mergefellas-apk.com/file/mergefellasmodapk/merge-fellas-old-version-v1.7.0.apk",
+    },
+    {
+      version: "1.6.9",
+      download_url: "https://dl.mergefellas-apk.com/file/mergefellasmodapk/merge-fellas-old-version-v1.6.9.apk",
+    },
+    {
+      version: "1.6.8",
+      download_url: "https://dl.mergefellas-apk.com/file/mergefellasmodapk/merge-fellas-old-version-v1.6.8.apk",
+    },
+    {
+      version: "1.6.7",
+      download_url: "https://dl.mergefellas-apk.com/file/mergefellasmodapk/merge-fellas-old-version-v1.6.7.apk",
+    },
+    {
+      version: "1.6.6",
+      download_url: "https://dl.mergefellas-apk.com/file/mergefellasmodapk/merge-fellas-old-version-v1.6.6.apk",
+    },
+    {
+      version: "1.6.5",
+      download_url: "https://dl.mergefellas-apk.com/file/mergefellasmodapk/merge-fellas-old-version-v1.6.5.apk",
+    },
+    {
+      version: "1.6.4",
+      download_url: "https://dl.mergefellas-apk.com/file/mergefellasmodapk/merge-fellas-old-version-v1.6.4.apk",
+    },
+    {
+      version: "1.6.3",
+      download_url: "https://dl.mergefellas-apk.com/file/mergefellasmodapk/merge-fellas-old-version-v1.6.3.apk",
+    },
+    {
+      version: "1.6.2",
+      download_url: "https://dl.mergefellas-apk.com/file/mergefellasmodapk/merge-fellas-old-version-v1.6.2.apk",
     },
     {
       version: "1.5.8",
-      download_url: "http://zubairakhtar.com/download/Demo-APK_v3.20.52_mergefellas-apk.com.apk",
+      download_url: "https://dl.mergefellas-apk.com/file/mergefellasmodapk/merge-fellas-mod-apk-v1.5.8.apk",
     },
     {
       version: "1.4.8",
-      download_url: "http://zubairakhtar.com/download/Demo-APK_v3.20.52_mergefellas-apk.com.apk",
+      download_url: "https://dl.mergefellas-apk.com/file/mergefellasmodapk/merge-fellas-mod-apk-v1.4.8apk.apk",
+    },
+    {
+      version: "Older then above",
+      download_url: defaultDownloadURL,
     },
   ],
-}
+};
+
+// For missing links (if any remain in future versions), use:
+
 
 export function DownloadPageContent() {
   const [downloadingVersion, setDownloadingVersion] = useState<string | null>(null)
