@@ -94,7 +94,9 @@ export const metadata: Metadata = {
     "theme-color": "#FFD700",
     "msapplication-TileColor": "#FFD700",
   },
-    generator: 'v0.app'
+  verification: {
+    google: "1Pfzk35p8vZiv2Qmddb2pRf9UqbmRjCIe9MlLUPYloA",
+  } 
 }
 
 export default function RootLayout({
@@ -161,6 +163,22 @@ export default function RootLayout({
             </ul>
           </nav>
         </ThemeProvider>
+        
+        {/* Google Analytics */}
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-FM1DJPVZW0"
+        />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-FM1DJPVZW0');
+            `,
+          }}
+        />
       </body>
     </html>
   )
